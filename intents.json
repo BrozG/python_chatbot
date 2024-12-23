@@ -1,0 +1,305 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going"
+            ],
+            "responses": [
+                "hello",
+                "hey!",
+                "what can i do for you?"
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "who made you?",
+                "Who created you?",
+                "who designed you"
+            ],
+            "responses": [
+                "I am made by my master Brojen the Top-G"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "goodbye",
+                "have a good day",
+                "bye",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "have a nice day",
+                "goodbye"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old are you?",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "Hi I am a chatbot and was made in 2024"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should i call you",
+                "what's your name?",
+                "who are you?",
+                "can you tell me your name"
+            ],
+            "responses": [
+                "My name is Brobot"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "What can you do?",
+                "Whats your function?",
+                "What are your features?",
+                "What your potential?"
+            ],
+            "responses": [
+                "I am just a simple chatbot\n1. I can tell some jokes\n2.I can motivate you\n3.I can give some inpirational quotes\n4.You can ask me to google anything but be type :Google\n5.I can also tell you some funfacts\n6.and give some random trivia\n7.Can play Red pill or blue pill"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Do you know any jokes?",
+                "I want to hear a joke",
+                "funny story?",
+                "Hey can you tell me some jokes"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "Why dont skeletons fight each other? They dont have the guts."
+            ]
+        },
+        {
+            "tag": "inspirational_quotes",
+            "patterns": [
+                "Give me some inspiration",
+                "Tell me an inspirational quote",
+                "I need some motivation",
+                "Inspire me",
+                "Share a quote"
+            ],
+            "responses": [
+                "The only way to do great work is to love what you do. Steve Jobs",
+                "The best time to plant a tree was 20 years ago. The second best time is now. Chinese Proverb",
+                "Your time is limited, don't waste it living someone else's life. Steve Jobs"
+            ]
+        },
+        {
+            "tag": "fun_facts",
+            "patterns": [
+                "Tell me a fun fact",
+                "Do you know any interesting facts?",
+                "I want to learn something new",
+                "Share a fun fact",
+                "Give me an interesting fact"
+            ],
+            "responses": [
+                "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+                "Octopuses have three hearts, nine brains, and blue blood.",
+                "A day on Venus is longer than a year on Venus."
+            ]
+        },
+        {
+            "tag": "motivational_tips",
+            "patterns": [
+                "Give me some motivation",
+                "I need some motivational tips",
+                "How can I stay motivated?",
+                "Share some motivational advice",
+                "Motivate me"
+            ],
+            "responses": [
+                "Set specific goals and break them down into manageable steps.",
+                "Celebrate your small victories along the way.",
+                "Stay positive and surround yourself with supportive people."
+            ]
+        },
+        {
+            "tag": "random_trivia",
+            "patterns": [
+                "Tell me something random",
+                "Do you have any trivia?",
+                "Share some trivia",
+                "I want to hear some random facts",
+                "Give me a trivia fact"
+            ],
+            "responses": [
+                "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
+                "A group of flamingos is called a 'flamboyance.'",
+                "Bananas are berries, but strawberries aren't."
+            ]
+        },
+        {
+            "tag": "google_search",
+            "patterns": [
+                "Can you search this?",
+                "Search this on Google",
+                "Find this for me",
+                "Look this up",
+                "Google this"
+            ],
+            "responses": [
+                "Sure, let me look that up for you on Google.",
+                "Let me find that information for you.",
+                "I'll search that on Google for you."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                "What is",
+                "Who is",
+                "Tell me about",
+                "Explain",
+                "I have a question"
+            ],
+            "responses": [
+                "I'm not sure about that. Let me search it on Google for you.",
+                "I don't have the answer, but I'll look it up for you on Google.",
+                "Let's see what Google has to say about that."
+            ],
+            "context_set": "search_google"
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather",
+                "How's the weather?",
+                "Is it going to rain today?",
+                "Will it be sunny tomorrow?"
+            ],
+            "responses": [
+                "I'm not sure, but you can check a weather website for the latest updates.",
+                "I can't provide real-time weather updates, but you can look it up on a weather app or site.",
+                "You might want to check a weather service for that information."
+            ]
+        },
+        {
+            "tag": "Red pill or blue pill",
+            "patterns": [
+                "Red pill or blue pill",
+                "Let's play Red pill or blue pill ",
+                "Play Red pill or blue pill with me",
+                "I want to play Red pill or blue pill ",
+                "Can we play Red pill or blue pill ?"
+            ],
+            "responses": [
+                "Sure! Here's a question:\nRed pill: You get a ferrari but you will lost one hand.\nBlue pill: You became a billionaire but a have a life long court battle.",
+                "Sure! Here's a question:\nRed pill: You can speak all languages fluently.\nBlue pill: You can speak to animals.",
+                "Sure! Here's a question:\nRed pill: You get unlimited free travel for life. \nBlue pill: You have the ability to teleport anywhere instantly.",
+                "Sure! Here's a question:\nRed pill: You become a master of every musical instrument. \nBlue pill: You become fluent in every programming language.",
+                "Sure! Here's a question:\nRed pill: You get a million dollars right now. \nBlue pill: You find true love.",
+                "Sure! Here's a question:\nRed pill: You can eat anything without gaining weight.\n Blue pill: You need only one hour of sleep per day and feel fully rested.",
+                "Sure! Here's a question:\nRed pill: You can read minds. \nBlue pill: You can fly but only as fast as you can walk.",
+                "Sure! Here's a question:\nRed pill: You can time travel to the past. \nBlue pill: You can time travel to the future.",
+                "Sure! Here's a question:\nRed pill: You become invisible at will. \nBlue pill: You can phase through walls at will.",
+                "Sure! Here's a question:\nRed pill: You get to be a superhero with any power you choose. \nBlue pill: You become the world's greatest detective.",
+                "Sure! Here's a question:\nRed pill: You can control the weather. \nBlue pill: You can talk to electronic devices."
+            ]
+        },
+        {
+            "tag": "Red pill or blue pill response",
+            "patterns": [
+                "Red pill",
+                "blue pill",
+                "red one",
+                "blue one",
+                "red",
+                "blue"
+            ],
+            "responses": [
+                "Interesting choice! Want to play again?",
+                "Great pick! Ready for another one?",
+                "Nice choice! Would you like another question?",
+                "That's a good one! Let's do another?",
+                "Cool! How about one more question?"
+            ]
+        },
+        {
+            "tag": "red_pill_blue_pill_neither",
+            "patterns": [
+                "neither",
+                "no pills",
+                "none",
+                "I don't want either",
+                "I choose neither"
+            ],
+            "responses": [
+                "That's an interesting choice! Want to try another question?",
+                "Okay, no problem! Would you like a different question?",
+                "Got it! Let's move to another question, shall we?",
+                "Alright! Want to pick another question?",
+                "No worries! How about another question?"
+            ]
+        },
+        {
+            "tag": "Red pill or blue pill continue",
+            "patterns": [
+                "yes",
+                "sure",
+                "okay",
+                "let's play again",
+                "another question",
+                "one more"
+            ],
+            "responses": [
+                "Red pill: You get to be a famous actor. \nBlue pill: You get to be a famous musician.",
+                "Red pill: You can always tell when someone is lying. \nBlue pill: You can always make someone tell the truth.",
+                "Red pill: You never have to pay for food at restaurants. \nBlue pill: You never have to wait in line for anything.",
+                "Red pill: You can remember every detail of your life perfectly. \nBlue pill: You can forget any memory you choose.",
+                "Red pill: You can breathe underwater. \nBlue pill: You can withstand any temperature."
+            ]
+        },
+        {
+            "tag": "Red pill or blue pill end",
+            "patterns": [
+                "no",
+                "stop",
+                "quit",
+                "exit",
+                "I'm done",
+                "no more",
+                "bye"
+            ],
+            "responses": [
+                "Alright! It was fun playing with you. Let me know if you want to play again later!",
+                "Okay, we can stop here. Feel free to ask me anything else!",
+                "No problem! If you want to play again, just let me know.",
+                "Got it! If you have other questions or want to play again, I'm here.",
+                "Sure thing! Have a great day, and let's play again sometime."
+            ]
+        }
+        
+    ]
+}
